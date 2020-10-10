@@ -5,7 +5,7 @@ const client = new Client();
 const Bots = global.Bots = [];
 
 // Mongoose
-mongoose.connect("mongodb+srv://alosha:H887InMpH90R9CLh@aloshaninadami.sjyug.gcp.mongodb.net/backup?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("", {useNewUrlParser: true, useUnifiedTopology: true});
 mongoose.connection.on("connected", () => {
     console.log("MongoDB bağlanıldı.")
 });
